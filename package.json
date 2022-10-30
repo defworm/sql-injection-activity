@@ -1,12 +1,42 @@
 {
-  "name": "sql-injection-activity",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "errorhandler": "1.4.3",
+    "express": "^4.13.4",
+    "sqlite3": "^5.1.2"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "eslintConfig": {
+    "extends": []
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defworm/sql-injection-activity.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defworm/sql-injection-activity/issues"
+  },
+  "homepage": "https://github.com/defworm/sql-injection-activity#readme",
+  "keywords": [],
   "description": ""
 }
